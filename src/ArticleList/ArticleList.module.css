@@ -1,0 +1,11 @@
+.articleStyle {
+  background: rgb(165, 164, 164);
+  margin: 50px;
+  padding: 40px;
+}
+
+.ulStyle {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}

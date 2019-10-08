@@ -1,0 +1,15 @@
+.buttonStyle {
+  background: rgb(209, 31, 31);
+  color: white;
+  float: right;
+  margin-right: 50px;
+  font-size: 20px;
+  border-color: rgb(231, 228, 228);
+  cursor: pointer;
+}
+.buttonStyle:hover {
+  background: red;
+}
+.buttonStyle:active {
+  transform: translate(5px);
+}

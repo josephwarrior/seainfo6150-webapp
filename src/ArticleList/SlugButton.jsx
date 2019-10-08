@@ -1,11 +1,14 @@
 import React from "react";
+import style from "./SlugButton.module.css";
 // import { tsPropertySignature } from "@babel/types";
 
-const SlugButton = article => {
+const SlugButton = ({ buttonText, slug }) => {
   return (
-    <div>
-      <button onClick={() => alert(article.slug)}>show article slug</button>
-    </div>
+    //<div className={style.divStyle}>
+    <button className={style.buttonStyle} onClick={() => alert(slug)}>
+      {buttonText}
+    </button>
+    // </div>
   );
 };
 

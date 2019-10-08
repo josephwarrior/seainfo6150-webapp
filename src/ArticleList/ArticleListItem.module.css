@@ -1,0 +1,23 @@
+.divStyle {
+  background: rgb(248, 245, 245);
+  border-color: rgb(209, 31, 31);
+  border-style: solid;
+  padding: 20px;
+  padding-top: 0px;
+  margin-bottom: 40px;
+}
+
+.h2Style {
+  color: rgb(209, 31, 31);
+  font-size: 43px;
+  line-height: 35px;
+}
+
+.pStyle {
+  font-size: 23px;
+}
+
+.timeStyle {
+  font-size: 19px;
+  font-weight: 700;
+}
