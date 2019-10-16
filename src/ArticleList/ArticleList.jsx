@@ -15,6 +15,7 @@ const ArticleList = props => {
               pubDate={article.pubDate}
               slug={article.slug}
               author={article.author}
+              url={article.image._url}
             />
           </li>
         ))}

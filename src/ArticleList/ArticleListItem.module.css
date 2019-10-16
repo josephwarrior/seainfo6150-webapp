@@ -1,23 +1,42 @@
-.divStyle {
+.articleItemContainerStyle {
   background: rgb(248, 245, 245);
+  background: linear-gradient(
+    to right,
+    rgb(185, 98, 98) 0%,
+    rgb(248, 245, 245) 15%
+  );
   border-color: rgb(209, 31, 31);
   border-style: solid;
-  padding: 20px;
-  padding-top: 0px;
+  display: inline-flex;
   margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: -5px 10px 20px 5px rgb(94, 93, 93);
+}
+
+.textContainerStyle {
+  background: rgb(248, 245, 245);
+  width: 950px;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.buttonAndTextContainerStyle {
+  padding-bottom: 20px;
 }
 
 .h2Style {
   color: rgb(209, 31, 31);
-  font-size: 43px;
-  line-height: 35px;
+  font-size: 66px;
+  line-height: 66px;
+  font-weight: 610;
 }
 
 .pStyle {
-  font-size: 23px;
+  font-size: 35px;
+  line-height: 37px;
 }
 
 .timeStyle {
-  font-size: 19px;
+  font-size: 29px;
   font-weight: 700;
 }
