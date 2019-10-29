@@ -9,16 +9,12 @@ const ArticleListItem = article => {
   return (
     <div className={style.articleItemContainerStyle}>
       <ArticleImage url={article.url} title={article.title} />
-      <div className={style.buttonAndTextContainerStyle}>
-        <div className={style.textContainerStyle}>
-          <h2 className={style.h2Style}>{article.title}</h2>
-          <p className={style.pStyle}>{article.shortText}</p>
-          <time className={style.timeStyle} dateTime={article.pubYear}>
-            {article.pubDate}
-          </time>
-        </div>
-        <SlugButton buttonText={article.author} slug={article.slug} />
-      </div>
+      <h2 className={style.h2Style}>{article.title}</h2>
+      <p className={style.pStyle}>{article.shortText}</p>
+      <time className={style.timeStyle} dateTime={article.pubYear}>
+        {article.pubDate}
+      </time>
+      <SlugButton buttonText={article.author} slug={article.slug} />
     </div>
   );
 };

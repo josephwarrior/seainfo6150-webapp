@@ -8,7 +8,7 @@ const ArticleList = props => {
     <article className={style.articleStyle}>
       <ul className={style.ulStyle}>
         {props.articles.map(article => (
-          <li key={article.slug}>
+          <li className={style.liStyle} key={article.slug}>
             <ArticleListItem
               title={article.title}
               shortText={article.shortText}

@@ -1,10 +1,10 @@
 .buttonStyle {
   background: rgb(209, 31, 31);
   color: white;
-  float: right;
-  margin-right: 20px;
-  font-size: 25px;
-
+  font-size: 21px;
+  max-height: 60px;
+  min-height: 60px;
+  margin-bottom: 0px;
   border-color: rgb(231, 228, 228);
   border-radius: 20px;
   cursor: pointer;
