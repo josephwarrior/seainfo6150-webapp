@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 20px;
 }
 
 .h2Style {
@@ -32,4 +33,26 @@
   font-size: 17px;
   font-weight: 700;
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+  .articleItemContainerStyle {
+    margin-right: 20px;
+    padding-bottom: 20px;
+  }
+  .h2Style {
+    color: rgb(209, 31, 31);
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .pStyle {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .timeStyle {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
 }

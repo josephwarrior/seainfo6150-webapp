@@ -7,6 +7,7 @@
   border-style: dashed;
   border-width: 1px;
   box-shadow: 0px 10px 20px 2px rgb(146, 145, 145);
+  min-width: 500px;
 }
 
 .liStyle {
@@ -18,7 +19,35 @@
   padding: 0px;
   margin: 0px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: auto auto auto;
   grid-auto-rows: minmax(400px, auto);
   grid-gap: 40px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .articleStyle {
+    border-color: rgb(7, 241, 105);
+    margin: 10px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    padding: 10px;
+    min-width: 320px;
+  }
+  .ulStyle {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .articleStyle {
+    border-color: rgb(35, 13, 235);
+    margin: 10px;
+    margin-right: 25px;
+    margin-bottom: 35px;
+    padding: 10px;
+    min-width: 320px;
+  }
+  .ulStyle {
+    grid-template-columns: repeat(auto-fit, minmax(330px, auto));
+  }
 }

@@ -6,3 +6,21 @@
   border-width: 10px;
   filter: drop-shadow(0 10px 5px gray);
 }
+
+@media only screen and (max-width: 1300px) {
+  .imgStyle {
+    width: 95%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .imgStyle {
+    width: 180px;
+    border-radius: 50%;
+    border-color: rgb(209, 31, 31);
+    border-width: 5px;
+  }
+}
